@@ -1,0 +1,1 @@
+TKS Maven archetype to quickstart a project
