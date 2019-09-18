@@ -59,7 +59,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.tks.App</mainClass>
+              <mainClass>${groupId}.App</mainClass>
               <classpathPrefix>dependency-jars</classpathPrefix>
             </manifest>
           </archive>
@@ -104,7 +104,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.6.0</version>
         <configuration>
-          <mainClass>com.tks.App</mainClass>
+          <mainClass>${groupId}.App</mainClass>
         </configuration>
       </plugin>
     </plugins>
