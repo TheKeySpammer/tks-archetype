@@ -2,7 +2,7 @@ package $package;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.tks.App;
+import $groupId.App;
 
 import org.junit.jupiter.api.Test;
 
